@@ -19,3 +19,10 @@ NSMutableURLRequest* req = [NSMutableURLRequest requestWithURL:[NSURL URLWithStr
 ...
     "X-WSSE" = "UsernameToken Username=\"sample\", PasswordDigest=\"4KgZgUd7Nl2XZUHKOuS/EKPUL04=\", Nonce=\"QjIwOUZEQzQ4RjQ2NUEyRkRCMTgwQkM5RjlFNzM2N0UwNkUwNDlENw==\", Created=\"2013-09-19T19:15:04+0900\"";
 ```
+
+Install
+============
+
+```ruby:Podfile
+pod 'Cocoawsse', :git => 'https://github.com/laiso/CocoaWSSE.git'
+```
