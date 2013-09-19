@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0727040B17EAFE2E00098766 /* CocoaWSSE.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727040A17EAFE2E00098766 /* CocoaWSSE.m */; };
+		0727040D17EAFE5900098766 /* CocoaWSSETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727040C17EAFE5900098766 /* CocoaWSSETests.m */; };
+		0727041417EB011900098766 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0727041317EB011900098766 /* Cocoa.framework */; };
+		0727043D17EB014E00098766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727043317EB014E00098766 /* AppDelegate.m */; };
+		0727043E17EB014E00098766 /* CocoaWSSE-Mac-Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0727043417EB014E00098766 /* CocoaWSSE-Mac-Example-Info.plist */; };
+		0727043F17EB014E00098766 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0727043617EB014E00098766 /* Credits.rtf */; };
+		0727044017EB014E00098766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0727043817EB014E00098766 /* InfoPlist.strings */; };
+		0727044117EB014E00098766 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0727043A17EB014E00098766 /* MainMenu.xib */; };
+		0727044217EB014E00098766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727043C17EB014E00098766 /* main.m */; };
+		0727044317EB02ED00098766 /* libCocoaWSSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BA117EAFCEB001F2DCA /* libCocoaWSSE.a */; };
+		0727044917EB03E600098766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BB517EAFCEB001F2DCA /* UIKit.framework */; };
+		0727044A17EB03E700098766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BA417EAFCEB001F2DCA /* Foundation.framework */; };
+		0727044C17EB03E700098766 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0727044B17EB03E700098766 /* CoreGraphics.framework */; };
+		0727046D17EB041200098766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727046417EB041200098766 /* AppDelegate.m */; };
+		0727046E17EB041200098766 /* CocoaWSSE-iOS-Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0727046517EB041200098766 /* CocoaWSSE-iOS-Example-Info.plist */; };
+		0727046F17EB041200098766 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0727046717EB041200098766 /* Default-568h@2x.png */; };
+		0727047017EB041200098766 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0727046817EB041200098766 /* Default.png */; };
+		0727047117EB041200098766 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0727046917EB041200098766 /* Default@2x.png */; };
+		0727047217EB041200098766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0727046A17EB041200098766 /* InfoPlist.strings */; };
+		0727047317EB041200098766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727046C17EB041200098766 /* main.m */; };
+		0727047617EB044C00098766 /* libCocoaWSSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BA117EAFCEB001F2DCA /* libCocoaWSSE.a */; };
+		07A16BA517EAFCEB001F2DCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BA417EAFCEB001F2DCA /* Foundation.framework */; };
+		07A16BB417EAFCEB001F2DCA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BB317EAFCEB001F2DCA /* SenTestingKit.framework */; };
+		07A16BB617EAFCEB001F2DCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BB517EAFCEB001F2DCA /* UIKit.framework */; };
+		07A16BB717EAFCEB001F2DCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BA417EAFCEB001F2DCA /* Foundation.framework */; };
+		07A16BBA17EAFCEB001F2DCA /* libCocoaWSSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BA117EAFCEB001F2DCA /* libCocoaWSSE.a */; };
+		07A16BC017EAFCEB001F2DCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07A16BBE17EAFCEB001F2DCA /* InfoPlist.strings */; };
+		507D98A8C09F47E2BD2A1FEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10687D5BA5DF4075ABC20CB9 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0727042E17EB012700098766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07A16B9917EAFCEB001F2DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07A16BA017EAFCEB001F2DCA;
+			remoteInfo = CocoaWSSE;
+		};
+		0727047417EB044200098766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07A16B9917EAFCEB001F2DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07A16BA017EAFCEB001F2DCA;
+			remoteInfo = CocoaWSSE;
+		};
+		07A16BB817EAFCEB001F2DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07A16B9917EAFCEB001F2DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07A16BA017EAFCEB001F2DCA;
+			remoteInfo = CocoaWSSE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07A16B9F17EAFCEB001F2DCA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0727040917EAFE2E00098766 /* CocoaWSSE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaWSSE.h; sourceTree = "<group>"; };
+		0727040A17EAFE2E00098766 /* CocoaWSSE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaWSSE.m; sourceTree = "<group>"; };
+		0727040C17EAFE5900098766 /* CocoaWSSETests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaWSSETests.m; sourceTree = "<group>"; };
+		0727041217EB011900098766 /* CocoaWSSE-Mac-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaWSSE-Mac-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0727041317EB011900098766 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		0727041617EB011900098766 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0727041717EB011900098766 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0727041817EB011900098766 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0727043217EB014E00098766 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0727043317EB014E00098766 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0727043417EB014E00098766 /* CocoaWSSE-Mac-Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CocoaWSSE-Mac-Example-Info.plist"; sourceTree = "<group>"; };
+		0727043517EB014E00098766 /* CocoaWSSE-Mac-Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CocoaWSSE-Mac-Example-Prefix.pch"; sourceTree = "<group>"; };
+		0727043717EB014E00098766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0727043917EB014E00098766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0727043B17EB014E00098766 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0727043C17EB014E00098766 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0727044817EB03E600098766 /* CocoaWSSE-iOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaWSSE-iOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0727044B17EB03E700098766 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0727046317EB041200098766 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0727046417EB041200098766 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0727046517EB041200098766 /* CocoaWSSE-iOS-Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CocoaWSSE-iOS-Example-Info.plist"; sourceTree = "<group>"; };
+		0727046617EB041200098766 /* CocoaWSSE-iOS-Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CocoaWSSE-iOS-Example-Prefix.pch"; sourceTree = "<group>"; };
+		0727046717EB041200098766 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0727046817EB041200098766 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0727046917EB041200098766 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0727046B17EB041200098766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0727046C17EB041200098766 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07A16BA117EAFCEB001F2DCA /* libCocoaWSSE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaWSSE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A16BA417EAFCEB001F2DCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07A16BA817EAFCEB001F2DCA /* CocoaWSSE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaWSSE-Prefix.pch"; sourceTree = "<group>"; };
+		07A16BB217EAFCEB001F2DCA /* CocoaWSSETests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaWSSETests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A16BB317EAFCEB001F2DCA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		07A16BB517EAFCEB001F2DCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		07A16BBD17EAFCEB001F2DCA /* CocoaWSSETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaWSSETests-Info.plist"; sourceTree = "<group>"; };
+		07A16BBF17EAFCEB001F2DCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10687D5BA5DF4075ABC20CB9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0EBC53D27B42CAB65B9B38 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0727040F17EB011900098766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0727044317EB02ED00098766 /* libCocoaWSSE.a in Frameworks */,
+				0727041417EB011900098766 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0727044517EB03E600098766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0727047617EB044C00098766 /* libCocoaWSSE.a in Frameworks */,
+				0727044917EB03E600098766 /* UIKit.framework in Frameworks */,
+				0727044A17EB03E700098766 /* Foundation.framework in Frameworks */,
+				0727044C17EB03E700098766 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A16B9E17EAFCEB001F2DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A16BA517EAFCEB001F2DCA /* Foundation.framework in Frameworks */,
+				507D98A8C09F47E2BD2A1FEB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A16BAE17EAFCEB001F2DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A16BB417EAFCEB001F2DCA /* SenTestingKit.framework in Frameworks */,
+				07A16BB617EAFCEB001F2DCA /* UIKit.framework in Frameworks */,
+				07A16BB717EAFCEB001F2DCA /* Foundation.framework in Frameworks */,
+				07A16BBA17EAFCEB001F2DCA /* libCocoaWSSE.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0727041517EB011900098766 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0727041617EB011900098766 /* AppKit.framework */,
+				0727041717EB011900098766 /* CoreData.framework */,
+				0727041817EB011900098766 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0727043017EB014E00098766 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				0727046217EB041200098766 /* CocoaWSSE-iOS-Example */,
+				0727043117EB014E00098766 /* CocoaWSSE-Mac-Example */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		0727043117EB014E00098766 /* CocoaWSSE-Mac-Example */ = {
+			isa = PBXGroup;
+			children = (
+				0727043217EB014E00098766 /* AppDelegate.h */,
+				0727043317EB014E00098766 /* AppDelegate.m */,
+				0727043417EB014E00098766 /* CocoaWSSE-Mac-Example-Info.plist */,
+				0727043517EB014E00098766 /* CocoaWSSE-Mac-Example-Prefix.pch */,
+				0727043617EB014E00098766 /* Credits.rtf */,
+				0727043817EB014E00098766 /* InfoPlist.strings */,
+				0727043A17EB014E00098766 /* MainMenu.xib */,
+				0727043C17EB014E00098766 /* main.m */,
+			);
+			path = "CocoaWSSE-Mac-Example";
+			sourceTree = "<group>";
+		};
+		0727046217EB041200098766 /* CocoaWSSE-iOS-Example */ = {
+			isa = PBXGroup;
+			children = (
+				0727046317EB041200098766 /* AppDelegate.h */,
+				0727046417EB041200098766 /* AppDelegate.m */,
+				0727046517EB041200098766 /* CocoaWSSE-iOS-Example-Info.plist */,
+				0727046617EB041200098766 /* CocoaWSSE-iOS-Example-Prefix.pch */,
+				0727046717EB041200098766 /* Default-568h@2x.png */,
+				0727046817EB041200098766 /* Default.png */,
+				0727046917EB041200098766 /* Default@2x.png */,
+				0727046A17EB041200098766 /* InfoPlist.strings */,
+				0727046C17EB041200098766 /* main.m */,
+			);
+			path = "CocoaWSSE-iOS-Example";
+			sourceTree = "<group>";
+		};
+		07A16B9817EAFCEB001F2DCA = {
+			isa = PBXGroup;
+			children = (
+				0727043017EB014E00098766 /* Examples */,
+				07A16BA617EAFCEB001F2DCA /* CocoaWSSE */,
+				07A16BBB17EAFCEB001F2DCA /* CocoaWSSETests */,
+				07A16BA317EAFCEB001F2DCA /* Frameworks */,
+				07A16BA217EAFCEB001F2DCA /* Products */,
+				6B0EBC53D27B42CAB65B9B38 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		07A16BA217EAFCEB001F2DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A16BA117EAFCEB001F2DCA /* libCocoaWSSE.a */,
+				07A16BB217EAFCEB001F2DCA /* CocoaWSSETests.octest */,
+				0727041217EB011900098766 /* CocoaWSSE-Mac-Example.app */,
+				0727044817EB03E600098766 /* CocoaWSSE-iOS-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A16BA317EAFCEB001F2DCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A16BA417EAFCEB001F2DCA /* Foundation.framework */,
+				07A16BB317EAFCEB001F2DCA /* SenTestingKit.framework */,
+				07A16BB517EAFCEB001F2DCA /* UIKit.framework */,
+				10687D5BA5DF4075ABC20CB9 /* libPods.a */,
+				0727041317EB011900098766 /* Cocoa.framework */,
+				0727044B17EB03E700098766 /* CoreGraphics.framework */,
+				0727041517EB011900098766 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07A16BA617EAFCEB001F2DCA /* CocoaWSSE */ = {
+			isa = PBXGroup;
+			children = (
+				0727040917EAFE2E00098766 /* CocoaWSSE.h */,
+				0727040A17EAFE2E00098766 /* CocoaWSSE.m */,
+				07A16BA717EAFCEB001F2DCA /* Supporting Files */,
+			);
+			path = CocoaWSSE;
+			sourceTree = "<group>";
+		};
+		07A16BA717EAFCEB001F2DCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07A16BA817EAFCEB001F2DCA /* CocoaWSSE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07A16BBB17EAFCEB001F2DCA /* CocoaWSSETests */ = {
+			isa = PBXGroup;
+			children = (
+				0727040C17EAFE5900098766 /* CocoaWSSETests.m */,
+				07A16BBC17EAFCEB001F2DCA /* Supporting Files */,
+			);
+			path = CocoaWSSETests;
+			sourceTree = "<group>";
+		};
+		07A16BBC17EAFCEB001F2DCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07A16BBD17EAFCEB001F2DCA /* CocoaWSSETests-Info.plist */,
+				07A16BBE17EAFCEB001F2DCA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0727041117EB011900098766 /* CocoaWSSE-Mac-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0727042B17EB011900098766 /* Build configuration list for PBXNativeTarget "CocoaWSSE-Mac-Example" */;
+			buildPhases = (
+				0727040E17EB011900098766 /* Sources */,
+				0727040F17EB011900098766 /* Frameworks */,
+				0727041017EB011900098766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0727042F17EB012700098766 /* PBXTargetDependency */,
+			);
+			name = "CocoaWSSE-Mac-Example";
+			productName = "CocoaWSSE-Mac-Example";
+			productReference = 0727041217EB011900098766 /* CocoaWSSE-Mac-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0727044717EB03E600098766 /* CocoaWSSE-iOS-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0727045F17EB03E700098766 /* Build configuration list for PBXNativeTarget "CocoaWSSE-iOS-Example" */;
+			buildPhases = (
+				0727044417EB03E600098766 /* Sources */,
+				0727044517EB03E600098766 /* Frameworks */,
+				0727044617EB03E600098766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0727047517EB044200098766 /* PBXTargetDependency */,
+			);
+			name = "CocoaWSSE-iOS-Example";
+			productName = "CocoaWSSE-iOS-Example";
+			productReference = 0727044817EB03E600098766 /* CocoaWSSE-iOS-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07A16BA017EAFCEB001F2DCA /* CocoaWSSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A16BC617EAFCEB001F2DCA /* Build configuration list for PBXNativeTarget "CocoaWSSE" */;
+			buildPhases = (
+				CD6EC164265A45598419A060 /* Check Pods Manifest.lock */,
+				07A16B9D17EAFCEB001F2DCA /* Sources */,
+				07A16B9E17EAFCEB001F2DCA /* Frameworks */,
+				07A16B9F17EAFCEB001F2DCA /* CopyFiles */,
+				6E9BA3552FE7452BB8875B4A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaWSSE;
+			productName = CocoaWSSE;
+			productReference = 07A16BA117EAFCEB001F2DCA /* libCocoaWSSE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		07A16BB117EAFCEB001F2DCA /* CocoaWSSETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A16BC917EAFCEB001F2DCA /* Build configuration list for PBXNativeTarget "CocoaWSSETests" */;
+			buildPhases = (
+				07A16BAD17EAFCEB001F2DCA /* Sources */,
+				07A16BAE17EAFCEB001F2DCA /* Frameworks */,
+				07A16BAF17EAFCEB001F2DCA /* Resources */,
+				07A16BB017EAFCEB001F2DCA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07A16BB917EAFCEB001F2DCA /* PBXTargetDependency */,
+			);
+			name = CocoaWSSETests;
+			productName = CocoaWSSETests;
+			productReference = 07A16BB217EAFCEB001F2DCA /* CocoaWSSETests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07A16B9917EAFCEB001F2DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 07A16B9C17EAFCEB001F2DCA /* Build configuration list for PBXProject "CocoaWSSE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07A16B9817EAFCEB001F2DCA;
+			productRefGroup = 07A16BA217EAFCEB001F2DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A16BA017EAFCEB001F2DCA /* CocoaWSSE */,
+				07A16BB117EAFCEB001F2DCA /* CocoaWSSETests */,
+				0727041117EB011900098766 /* CocoaWSSE-Mac-Example */,
+				0727044717EB03E600098766 /* CocoaWSSE-iOS-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0727041017EB011900098766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0727043E17EB014E00098766 /* CocoaWSSE-Mac-Example-Info.plist in Resources */,
+				0727043F17EB014E00098766 /* Credits.rtf in Resources */,
+				0727044017EB014E00098766 /* InfoPlist.strings in Resources */,
+				0727044117EB014E00098766 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0727044617EB03E600098766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0727046E17EB041200098766 /* CocoaWSSE-iOS-Example-Info.plist in Resources */,
+				0727046F17EB041200098766 /* Default-568h@2x.png in Resources */,
+				0727047017EB041200098766 /* Default.png in Resources */,
+				0727047117EB041200098766 /* Default@2x.png in Resources */,
+				0727047217EB041200098766 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A16BAF17EAFCEB001F2DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A16BC017EAFCEB001F2DCA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07A16BB017EAFCEB001F2DCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		6E9BA3552FE7452BB8875B4A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6EC164265A45598419A060 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0727040E17EB011900098766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0727043D17EB014E00098766 /* AppDelegate.m in Sources */,
+				0727044217EB014E00098766 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0727044417EB03E600098766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0727046D17EB041200098766 /* AppDelegate.m in Sources */,
+				0727047317EB041200098766 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A16B9D17EAFCEB001F2DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0727040B17EAFE2E00098766 /* CocoaWSSE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A16BAD17EAFCEB001F2DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0727040D17EAFE5900098766 /* CocoaWSSETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0727042F17EB012700098766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07A16BA017EAFCEB001F2DCA /* CocoaWSSE */;
+			targetProxy = 0727042E17EB012700098766 /* PBXContainerItemProxy */;
+		};
+		0727047517EB044200098766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07A16BA017EAFCEB001F2DCA /* CocoaWSSE */;
+			targetProxy = 0727047417EB044200098766 /* PBXContainerItemProxy */;
+		};
+		07A16BB917EAFCEB001F2DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07A16BA017EAFCEB001F2DCA /* CocoaWSSE */;
+			targetProxy = 07A16BB817EAFCEB001F2DCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0727043617EB014E00098766 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0727043717EB014E00098766 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0727043817EB014E00098766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0727043917EB014E00098766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0727043A17EB014E00098766 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0727043B17EB014E00098766 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0727046A17EB041200098766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0727046B17EB041200098766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07A16BBE17EAFCEB001F2DCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A16BBF17EAFCEB001F2DCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0727042C17EB011900098766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode4.6.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Examples/CocoaWSSE-Mac-Example/CocoaWSSE-Mac-Example-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Examples/CocoaWSSE-Mac-Example/CocoaWSSE-Mac-Example-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0727042D17EB011900098766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode4.6.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Examples/CocoaWSSE-Mac-Example/CocoaWSSE-Mac-Example-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Examples/CocoaWSSE-Mac-Example/CocoaWSSE-Mac-Example-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0727046017EB03E700098766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode4.6.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Examples/CocoaWSSE-iOS-Example/CocoaWSSE-iOS-Example-Prefix.pch";
+				INFOPLIST_FILE = "Examples/CocoaWSSE-iOS-Example/CocoaWSSE-iOS-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0727046117EB03E700098766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode4.6.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Examples/CocoaWSSE-iOS-Example/CocoaWSSE-iOS-Example-Prefix.pch";
+				INFOPLIST_FILE = "Examples/CocoaWSSE-iOS-Example/CocoaWSSE-iOS-Example-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07A16BC417EAFCEB001F2DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07A16BC517EAFCEB001F2DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07A16BC717EAFCEB001F2DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0EBC53D27B42CAB65B9B38 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/CocoaWSSE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaWSSE/CocoaWSSE-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		07A16BC817EAFCEB001F2DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0EBC53D27B42CAB65B9B38 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/CocoaWSSE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaWSSE/CocoaWSSE-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		07A16BCA17EAFCEB001F2DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaWSSE/CocoaWSSE-Prefix.pch";
+				INFOPLIST_FILE = "CocoaWSSETests/CocoaWSSETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07A16BCB17EAFCEB001F2DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaWSSE/CocoaWSSE-Prefix.pch";
+				INFOPLIST_FILE = "CocoaWSSETests/CocoaWSSETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0727042B17EB011900098766 /* Build configuration list for PBXNativeTarget "CocoaWSSE-Mac-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0727042C17EB011900098766 /* Debug */,
+				0727042D17EB011900098766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0727045F17EB03E700098766 /* Build configuration list for PBXNativeTarget "CocoaWSSE-iOS-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0727046017EB03E700098766 /* Debug */,
+				0727046117EB03E700098766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07A16B9C17EAFCEB001F2DCA /* Build configuration list for PBXProject "CocoaWSSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A16BC417EAFCEB001F2DCA /* Debug */,
+				07A16BC517EAFCEB001F2DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A16BC617EAFCEB001F2DCA /* Build configuration list for PBXNativeTarget "CocoaWSSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A16BC717EAFCEB001F2DCA /* Debug */,
+				07A16BC817EAFCEB001F2DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A16BC917EAFCEB001F2DCA /* Build configuration list for PBXNativeTarget "CocoaWSSETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A16BCA17EAFCEB001F2DCA /* Debug */,
+				07A16BCB17EAFCEB001F2DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07A16B9917EAFCEB001F2DCA /* Project object */;
+}
