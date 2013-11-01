@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CocoaWSSE"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "A WSSE authentication header for Cocoa."
   s.homepage     = "https://github.com/laiso/CocoaWSSE"
   s.license      = 'MIT'
