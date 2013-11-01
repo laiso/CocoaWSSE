@@ -1,0 +1,13 @@
+PODS:
+  - Base64nl (1.1)
+  - CocoaSecurity (1.2.1)
+
+DEPENDENCIES:
+  - Base64nl
+  - CocoaSecurity
+
+SPEC CHECKSUMS:
+  Base64nl: 1ca185984ee5507199b5c515d3083c554e15f06e
+  CocoaSecurity: cfca806aa54a020f0bf24b6ce467e8996dd6bb2e
+
+COCOAPODS: 0.24.0
