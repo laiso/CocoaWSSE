@@ -1,4 +1,4 @@
 language: objective-c
 
 script:
-  xctool -workspace CocoaWSSE.xcworkspace -scheme CocoaWSSE -sdk iphonesimulator -arch i386 test
+  xctool test -workspace CocoaWSSE.xcworkspace -scheme CocoaWSSE -sdk iphonesimulator -arch i386 -configuration Debug ONLY_ACTIVE_ARCH=NO
