@@ -1,0 +1,4 @@
+language: objective-c
+
+script:
+  xctool -workspace CocoaWSSE.xcworkspace -scheme CocoaWSSE -sdk iphonesimulator test
