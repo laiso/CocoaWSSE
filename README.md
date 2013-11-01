@@ -1,6 +1,8 @@
 CocoaWSSE
 ===================
 
+[![Build Status](https://travis-ci.org/laiso/CocoaWSSE.png?branch=master)](https://travis-ci.org/laiso/CocoaWSSE)
+
 A WSSE authentication header for Cocoa.
 
 ```objc:
