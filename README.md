@@ -5,7 +5,7 @@ CocoaWSSE
 
 A WSSE authentication header for Cocoa.
 
-```objc:
+```objc
 
 NSMutableURLRequest* req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://..."]];
 [req setValue:[CocoaWSSE headerWithUsername:@"sample" password:@"passwd"] forHTTPHeaderField:@"X-WSSE"];
@@ -25,6 +25,6 @@ NSMutableURLRequest* req = [NSMutableURLRequest requestWithURL:[NSURL URLWithStr
 Install
 ============
 
-```ruby:Podfile
+```ruby
 pod 'CocoaWSSE', :git => 'https://github.com/laiso/CocoaWSSE.git'
 ```
