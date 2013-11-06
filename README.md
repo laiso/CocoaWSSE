@@ -26,5 +26,5 @@ Install
 ============
 
 ```ruby
-pod 'CocoaWSSE', :git => 'https://github.com/laiso/CocoaWSSE.git'
+pod 'CocoaWSSE'
 ```
